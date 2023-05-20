@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    font-family: 'Mukta', sans-serif;
+    
+}
+
+fieldset {
+    border-radius: 10px;
+    padding: 30px;
+    background-color: rgba(247, 249, 241, 0.296);
+    /* opacity: 90%; */
+  
+}
+
+.register {
+    background-image:  linear-gradient(to bottom, rgba(0, 0, 0, 0.16), rgba(0, 0, 0, 0.16)),url("./image/register.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    height: calc(100vh - 65px);
+    align-items: center;
+    background-image:linear-gradient(rgb(11, 11, 11));
+    margin-left: 0px;
+   
+}
+
+.registerform {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.register>label {
+    margin: 10px, 0;
+
+}
+
+.register input {
+    padding: 7px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.registerbtn {
+    background-color: rgb(1, 131, 224);
+    color: aliceblue;
+    padding: 6px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+.registerbtn:hover {
+    background-color: rgb(71, 174, 249);
+}
+
+.login_btn{
+    color: rgb(65, 65, 65);
+    padding: 4px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    margin-left: 85px;
+    font-weight: 700;
+    background-color: rgba(247, 249, 241, 0);
+}
+
+.registertitle {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
